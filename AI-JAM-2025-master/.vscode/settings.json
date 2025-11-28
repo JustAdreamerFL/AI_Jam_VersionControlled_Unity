@@ -1,0 +1,17 @@
+{
+  "files.watcherExclude": {
+    "**/Library/**": true,
+    "**/Temp/**": true,
+    "**/Logs/**": true,
+    "**/obj/**": true,
+    "**/results/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true
+  },
+  "files.useExperimentalFileWatcher": true,
+  "git.autorefresh": false,
+  "git.autofetch": false
+}
+
+
+
