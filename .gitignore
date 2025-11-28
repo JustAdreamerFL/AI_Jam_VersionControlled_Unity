@@ -1,0 +1,37 @@
+# Unity generated folders
+**/Library/
+**/Temp/
+**/Obj/
+**/Build/
+**/Builds/
+**/Logs/
+**/UserSettings/
+**/MemoryCaptures/
+**/obj/
+**/bin/
+
+# IDE files
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Local environment artifacts
+.DS_Store
+Thumbs.db
+
+# Large ML artifacts
+AI-JAM-2025-master/Assets/results/
+AI-JAM-2025-master/results/
+*.onnx
+*.pt
+
+# Backup of git garbage from maintenance
+.git_object_backups/
