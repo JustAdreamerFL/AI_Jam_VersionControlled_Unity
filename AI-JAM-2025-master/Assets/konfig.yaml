@@ -3,10 +3,10 @@ behaviors:
     trainer_type: ppo
 
     hyperparameters:
-      batch_size: 2048
+      batch_size: 4096
       buffer_size: 40960
       learning_rate: 2.5e-4
-      beta: 0.0005
+      beta: 0.0006
       epsilon: 0.15
       lambd: 0.97
       num_epoch: 4
@@ -14,7 +14,7 @@ behaviors:
 
     network_settings:
       normalize: true
-      hidden_units: 256
+      hidden_units: 512
       num_layers: 3
 
     reward_signals:
@@ -22,9 +22,9 @@ behaviors:
         gamma: 0.995
         strength: 1.0
 
-    max_steps: 1.2e7      # 12 miliónov krokov = typicky 12–18 hodín
+    max_steps: 1.5e7      # 12 miliónov krokov = typicky 12–18 hodín
     time_horizon: 128
-    summary_freq: 2000
+    summary_freq: 500000
     checkpoint_interval: 1000000
     threaded: false
 
@@ -62,7 +62,7 @@ behaviors:
     checkpoint_interval: 500000
     threaded: true
 
-  Gregor:
+  GregorKameraBlizko:
       trainer_type: ppo
 
       hyperparameters:
@@ -85,8 +85,37 @@ behaviors:
           gamma: 0.995
           strength: 1.0
 
-      max_steps: 1.2e7      # 12 miliónov krokov = typicky 12–18 hodín
+      max_steps: 1.2e8      # 12 miliónov krokov = typicky 12–18 hodín
       time_horizon: 256
       summary_freq: 2000
       checkpoint_interval: 1000000
       threaded: false
+
+  GregorKameraDaleko:
+        trainer_type: ppo
+
+        hyperparameters:
+          batch_size: 2048
+          buffer_size: 40960
+          learning_rate: 2.5e-4
+          beta: 0.0005
+          epsilon: 0.15
+          lambd: 0.97
+          num_epoch: 4
+          learning_rate_schedule: linear
+
+        network_settings:
+          normalize: true
+          hidden_units: 256
+          num_layers: 3
+
+        reward_signals:
+          extrinsic:
+            gamma: 0.995
+            strength: 1.0
+
+        max_steps: 1.2e8      # 12 miliónov krokov = typicky 12–18 hodín
+        time_horizon: 256
+        summary_freq: 2000
+        checkpoint_interval: 1000000
+        threaded: false
