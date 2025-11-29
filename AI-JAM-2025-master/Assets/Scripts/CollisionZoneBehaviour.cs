@@ -73,7 +73,8 @@ public class CollisionZoneBehaviour : MonoBehaviour {
             float damageDealtNormalized = Mathf.Clamp(Mathf.Log(damageDealt, 20), -1, 1);
 
             RewardOfCollision = damageDealtNormalized;
-            OnDamageDealt?.Invoke(this, new DamageDealtEventArgs(damageDealt));
+            if (CurrentHealth > 0)
+                OnDamageDealt?.Invoke(this, new DamageDealtEventArgs(damageDealt));
             //Debug.Log(gameObject.name + " (" + enemyCollisionZone.damageOfZone + ";" + resistanceOfZone + ") got reward: " + RewardOfCollision);
         } 
 

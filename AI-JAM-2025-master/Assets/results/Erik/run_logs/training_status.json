@@ -1,0 +1,100 @@
+{
+    "Janko": {
+        "checkpoints": [
+            {
+                "steps": 499983,
+                "file_path": "results\\Erik\\Janko\\Janko-499983.onnx",
+                "reward": null,
+                "creation_time": 1764417740.5774114,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Janko\\Janko-499983.pt"
+                ]
+            },
+            {
+                "steps": 859454,
+                "file_path": "results\\Erik\\Janko\\Janko-859454.onnx",
+                "reward": null,
+                "creation_time": 1764420421.4012318,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Janko\\Janko-859454.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 859454,
+            "file_path": "results\\Erik\\Janko.onnx",
+            "reward": null,
+            "creation_time": 1764420421.4012318,
+            "auxillary_file_paths": [
+                "results\\Erik\\Janko\\Janko-859454.pt"
+            ]
+        }
+    },
+    "Erik": {
+        "checkpoints": [
+            {
+                "steps": 859262,
+                "file_path": "results\\Erik\\Erik\\Erik-859262.onnx",
+                "reward": null,
+                "creation_time": 1764420421.5774536,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Erik\\Erik-859262.pt"
+                ]
+            },
+            {
+                "steps": 870962,
+                "file_path": "results\\Erik\\Erik\\Erik-870962.onnx",
+                "reward": 60128.671911239624,
+                "creation_time": 1764420650.7747827,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Erik\\Erik-870962.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 870962,
+            "file_path": "results\\Erik\\Erik.onnx",
+            "reward": 60128.671911239624,
+            "creation_time": 1764420650.7747827,
+            "auxillary_file_paths": [
+                "results\\Erik\\Erik\\Erik-870962.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\Erik\\Marienka\\Marienka-0.onnx",
+                "reward": null,
+                "creation_time": 1764420486.8836863,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Marienka\\Marienka-0.pt"
+                ]
+            },
+            {
+                "steps": 11700,
+                "file_path": "results\\Erik\\Marienka\\Marienka-11700.onnx",
+                "reward": 343995.41845703125,
+                "creation_time": 1764420650.596216,
+                "auxillary_file_paths": [
+                    "results\\Erik\\Marienka\\Marienka-11700.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 11700,
+            "file_path": "results\\Erik\\Marienka.onnx",
+            "reward": 343995.41845703125,
+            "creation_time": 1764420650.596216,
+            "auxillary_file_paths": [
+                "results\\Erik\\Marienka\\Marienka-11700.pt"
+            ]
+        }
+    }
+}

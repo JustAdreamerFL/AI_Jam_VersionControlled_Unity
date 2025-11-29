@@ -1,0 +1,87 @@
+{
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 8999896,
+                "file_path": "results\\Marienka\\Marienka\\Marienka-8999896.onnx",
+                "reward": null,
+                "creation_time": 1764393846.2032363,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Marienka\\Marienka-8999896.pt"
+                ]
+            },
+            {
+                "steps": 9999960,
+                "file_path": "results\\Marienka\\Marienka\\Marienka-9999960.onnx",
+                "reward": null,
+                "creation_time": 1764397192.2907116,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Marienka\\Marienka-9999960.pt"
+                ]
+            },
+            {
+                "steps": 10999896,
+                "file_path": "results\\Marienka\\Marienka\\Marienka-10999896.onnx",
+                "reward": null,
+                "creation_time": 1764400499.3714647,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Marienka\\Marienka-10999896.pt"
+                ]
+            },
+            {
+                "steps": 11999960,
+                "file_path": "results\\Marienka\\Marienka\\Marienka-11999960.onnx",
+                "reward": null,
+                "creation_time": 1764403557.0281107,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Marienka\\Marienka-11999960.pt"
+                ]
+            },
+            {
+                "steps": 12000216,
+                "file_path": "results\\Marienka\\Marienka\\Marienka-12000216.onnx",
+                "reward": null,
+                "creation_time": 1764403557.1805427,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Marienka\\Marienka-12000216.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 12000216,
+            "file_path": "results\\Marienka\\Marienka.onnx",
+            "reward": null,
+            "creation_time": 1764403557.1805427,
+            "auxillary_file_paths": [
+                "results\\Marienka\\Marienka\\Marienka-12000216.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "Erik": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\Marienka\\Erik\\Erik-0.onnx",
+                "reward": null,
+                "creation_time": 1764420765.57647,
+                "auxillary_file_paths": [
+                    "results\\Marienka\\Erik\\Erik-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\Marienka\\Erik.onnx",
+            "reward": null,
+            "creation_time": 1764420765.57647,
+            "auxillary_file_paths": [
+                "results\\Marienka\\Erik\\Erik-0.pt"
+            ]
+        }
+    }
+}
