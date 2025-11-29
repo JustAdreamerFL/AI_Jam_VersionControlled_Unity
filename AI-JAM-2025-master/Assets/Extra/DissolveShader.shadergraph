@@ -29,6 +29,9 @@
         },
         {
             "m_Id": "5636271462fa427da5a2e694b96767fb"
+        },
+        {
+            "m_Id": "95d11548617740fa87cb13d966b85a22"
         }
     ],
     "m_Keywords": [],
@@ -215,6 +218,9 @@
         },
         {
             "m_Id": "56fae193c3ad47bc851864b0c00ef1b9"
+        },
+        {
+            "m_Id": "ccd8299c73f44ec8a7acbe58b5133836"
         }
     ],
     "m_GroupDatas": [
@@ -825,6 +831,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "0fbc6ac5db5e4357ac7844ad001d541f"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "ccd8299c73f44ec8a7acbe58b5133836"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "56fae193c3ad47bc851864b0c00ef1b9"
                 },
                 "m_SlotId": 1
             }
@@ -2190,6 +2210,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "26787e09395143a38e053ded6d7dc0e4",
+    "m_Id": 0,
+    "m_DisplayName": "animation Speed",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -4943,6 +4978,9 @@
         },
         {
             "m_Id": "84fc87486aec4274a41b5896a7b196f8"
+        },
+        {
+            "m_Id": "95d11548617740fa87cb13d966b85a22"
         }
     ]
 }
@@ -5182,9 +5220,49 @@
     "m_ObjectId": "95168941c6be4536ab21a7b0e3389a54",
     "m_Title": "Emission Cutoff",
     "m_Position": {
-        "x": -665.599853515625,
-        "y": -393.6000061035156
+        "x": -665.0,
+        "y": -392.0
     }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "95d11548617740fa87cb13d966b85a22",
+    "m_Guid": {
+        "m_GuidSerialized": "1da277a0-efec-47fc-8142-09b7f00b0fba"
+    },
+    "m_Name": "animation Speed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "animation Speed",
+    "m_DefaultReferenceName": "_animation_Speed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -6260,6 +6338,42 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "ccd8299c73f44ec8a7acbe58b5133836",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2475.000244140625,
+            "y": -226.99998474121095,
+            "width": 163.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "26787e09395143a38e053ded6d7dc0e4"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "95d11548617740fa87cb13d966b85a22"
     }
 }
 
