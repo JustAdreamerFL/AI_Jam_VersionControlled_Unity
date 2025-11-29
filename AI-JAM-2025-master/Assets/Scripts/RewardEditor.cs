@@ -10,4 +10,7 @@ public class RewardEditor : MonoBehaviour
     [SerializeField, Range(0f, 1f)] public float enemyDistanceRF = 0.2f;
     [SerializeField, Range(0f, 1f)] public float arenaPositionRF = 0.2f;
     [SerializeField, Range(0f, 1f)] public float collisionCombinationRF = 0.7f;
+
+    //Custom
+    [SerializeField, Range(0f, 1f)] public float weaponDamageRF = 0.5f;
 }
