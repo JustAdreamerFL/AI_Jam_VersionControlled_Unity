@@ -27,11 +27,7 @@
 .DS_Store
 Thumbs.db
 
-# Large ML artifacts
-AI-JAM-2025-master/Assets/results/
-AI-JAM-2025-master/results/
-*.onnx
-*.pt
+
 
 # Backup of git garbage from maintenance
 .git_object_backups/
