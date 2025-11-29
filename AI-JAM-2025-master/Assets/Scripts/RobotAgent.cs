@@ -89,14 +89,15 @@ public class RobotAgent : Agent {
             if (collisionZone.gameObject.CompareTag("RobotArm"))
             {
                 weaponCollisionZones[index++] = collisionZone;
-                collisionZone.OnCollision += CollisionZone_OnCollision;
+                collisionZone.OnDamageDealt += CollisionZone_OnDamageDealt;
             }
         }
     }
 
-    private void CollisionZone_OnCollision(object sender, CollisionEventArgs e)
+    private void CollisionZone_OnDamageDealt(object sender, DamageDealtEventArgs e)
     {
-        float weaponCollisionReward = e.Damage * 1000f; // damage * reward multiplier
+
+        float weaponCollisionReward = e.DamageDealt; // damage * reward multiplier
         Debug.Log($"Calculated weapon reward: {weaponCollisionReward}, {transform.name}");
         AddReward(weaponCollisionReward * rewardEditor.weaponDamageRF);
     }
