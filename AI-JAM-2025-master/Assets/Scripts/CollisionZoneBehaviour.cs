@@ -20,11 +20,22 @@ public class CollisionZoneBehaviour : MonoBehaviour {
     public event EventHandler<CollisionEventArgs> OnCollision;
     public class CollisionEventArgs : EventArgs {
         public float Damage { get; private set; }
+
         public string colliderHitName { get; private set; }
 
         public CollisionEventArgs(float damage, string colliderHitName) {
             this.Damage = damage;
             this.colliderHitName = colliderHitName;
+        }
+    }
+
+    public event EventHandler<DamageDealtEventArgs> OnDamageDealt;
+    public class DamageDealtEventArgs : EventArgs
+    {
+        public float DamageDealt { get; private set; }
+        public DamageDealtEventArgs(float damageDealt)
+        {
+            DamageDealt = damageDealt;
         }
     }
 
@@ -62,7 +73,7 @@ public class CollisionZoneBehaviour : MonoBehaviour {
             float damageDealtNormalized = Mathf.Clamp(Mathf.Log(damageDealt, 20), -1, 1);
 
             RewardOfCollision = damageDealtNormalized;
-
+            OnDamageDealt?.Invoke(this, new DamageDealtEventArgs(damageDealt));
             //Debug.Log(gameObject.name + " (" + enemyCollisionZone.damageOfZone + ";" + resistanceOfZone + ") got reward: " + RewardOfCollision);
         } 
 
