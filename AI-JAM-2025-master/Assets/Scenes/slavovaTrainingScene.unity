@@ -4096,8 +4096,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57513dd360039b04fa4adcb4e325cb8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  robotPrefabA: {fileID: 4196974280367478854, guid: 9bed8b9a1b80d9f42984d0b088b740de, type: 3}
-  robotPrefabB: {fileID: 4196974280367478854, guid: 9bed8b9a1b80d9f42984d0b088b740de, type: 3}
+  robotPrefabA: {fileID: 4196974280367478854, guid: 2cfc9017e33565d49ab381bec1ecdd41, type: 3}
+  robotPrefabB: {fileID: 4196974280367478854, guid: 2cfc9017e33565d49ab381bec1ecdd41, type: 3}
   numOfArenas: 5
 --- !u!4 &1416550321
 Transform:
@@ -4192,13 +4192,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementRF: 0.3
-  facingRF: 1
-  armAngleRF: 1
-  enemyDistanceRF: 1
-  arenaPositionRF: 0.7
+  movementRF: 0.051
+  facingRF: 0.986
+  armAngleRF: 0.928
+  enemyDistanceRF: 0.505
+  arenaPositionRF: 0.28
   collisionCombinationRF: 1
-  weaponDamageRF: 0.5
+  weaponDamageRF: 0.942
 --- !u!4 &1701397034
 Transform:
   m_ObjectHideFlags: 0
