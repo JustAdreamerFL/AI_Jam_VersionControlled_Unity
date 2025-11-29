@@ -60,7 +60,7 @@ behaviors:
     time_horizon: 64
     summary_freq: 1000
     checkpoint_interval: 500000
-    threaded: true
+    threaded: false
 
   GregorKameraBlizko:
       trainer_type: ppo
@@ -119,3 +119,4 @@ behaviors:
         summary_freq: 2000
         checkpoint_interval: 1000000
         threaded: false
+

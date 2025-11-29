@@ -263,6 +263,8 @@ GameObject:
   - component: {fileID: 2159662951265706967}
   - component: {fileID: 820587803807383075}
   - component: {fileID: 9145765142121165188}
+  - component: {fileID: 7472670697099545400}
+  - component: {fileID: 5067621703204884987}
   m_Layer: 0
   m_Name: Janko
   m_TagString: Robot
@@ -422,7 +424,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: b0feb626441d2da45a37c783b9faf0e6, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: bcc57be6560683b45b43ca07ece29769, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Janko
@@ -479,6 +481,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454b9588e6956784dab642bfe6911748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7472670697099545400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428795192209815909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementRF: 0.805
+  facingRF: 0.5
+  armAngleRF: 0.5
+  enemyDistanceRF: 0.502
+  arenaPositionRF: 0.522
+  collisionCombinationRF: 0.517
+  weaponDamageRF: 0.527
+--- !u!114 &5067621703204884987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428795192209815909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueCrystalValue: 100000
 --- !u!1 &7990922028630662190
 GameObject:
   m_ObjectHideFlags: 0
