@@ -9,6 +9,7 @@
 **/MemoryCaptures/
 **/obj/
 **/bin/
+**/Packages/com.singularitygroup.hotreload
 
 # IDE files
 .vscode/
