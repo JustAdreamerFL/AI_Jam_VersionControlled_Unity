@@ -22,7 +22,7 @@ behaviors:
         gamma: 0.995
         strength: 1.0
 
-    max_steps: 1.5e7      # 12 miliónov krokov = typicky 12–18 hodín
+    max_steps: 1.5e7     
     time_horizon: 128
     summary_freq: 500000
     checkpoint_interval: 1000000
@@ -44,18 +44,12 @@ behaviors:
       hidden_units: 256
       num_layers: 2
       vis_encode_type: simple
-      # If you only have vector observations, this is enough.
-      # If you later add cameras, you'll also configure visual_observation configs.
+     
     reward_signals:
       extrinsic:
         gamma: 0.99
         strength: 1.0
-    # Optional if you plan self-play later; for now we keep it simple
-    # self_play:
-    #   save_steps: 20000
-    #   team_change: 100000
-    #   swap_steps: 20000
-    #   play_against_current_self_ratio: 0.5
+   
     max_steps: 1.5e7 
     time_horizon: 64
     summary_freq: 1000
@@ -85,7 +79,7 @@ behaviors:
           gamma: 0.995
           strength: 1.0
 
-      max_steps: 1.2e8      # 12 miliónov krokov = typicky 12–18 hodín
+      max_steps: 1.2e8     
       time_horizon: 256
       summary_freq: 2000
       checkpoint_interval: 1000000
@@ -114,7 +108,7 @@ behaviors:
             gamma: 0.995
             strength: 1.0
 
-        max_steps: 1.2e7      # 12 miliónov krokov = typicky 12–18 hodín
+        max_steps: 1.2e7     
         time_horizon: 256
         summary_freq: 2000
         checkpoint_interval: 1000000
