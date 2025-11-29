@@ -12,7 +12,10 @@ public class MetamfetamineController : MonoBehaviour
     {
         kamosTy = GetComponent<RobotAgent>();
         dealer = kamosTy.enemyRobot;
-        dealer.OnRobotDie += Dealer_OnRobotDie;
+        if (dealer != null)
+        {
+            dealer.OnRobotDie += Dealer_OnRobotDie;
+        }
     }
 
     private void Dealer_OnRobotDie(object sender, System.EventArgs e)
