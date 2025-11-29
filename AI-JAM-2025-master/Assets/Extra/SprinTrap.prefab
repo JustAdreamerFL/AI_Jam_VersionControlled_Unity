@@ -179,9 +179,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ejectSpeed: 0.2
+  ejectSpeed: 10
   thisCollider: {fileID: 6493779952477800221}
-  triggerVisual: {fileID: 0}
+  triggerVisual: {fileID: 7060363632414940439}
+  sleepingStateDuration: 2
 --- !u!65 &8985641188636762634
 BoxCollider:
   m_ObjectHideFlags: 0
