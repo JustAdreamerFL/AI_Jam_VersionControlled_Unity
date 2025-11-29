@@ -82,10 +82,10 @@ behaviors:
     init_path: null
     keep_checkpoints: 5
     even_checkpoints: false
-    max_steps: 5000000
+    max_steps: 15000000
     time_horizon: 64
     summary_freq: 1000
-    threaded: true
+    threaded: false
     self_play: null
     behavioral_cloning: null
   GregorKameraBlizko:
