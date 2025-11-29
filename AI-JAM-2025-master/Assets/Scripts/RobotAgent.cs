@@ -177,7 +177,7 @@ public class RobotAgent : Agent {
         }
 
         float rotationUp = Vector3.Dot(transform.up, Vector3.up);
-        if (rotationUp < 0.75f) { // origin 0.2f
+        if (rotationUp < 0.4f) { // origin 0.2f
             Debug.Log("Robot flipped over!");
 
             foreach (var zone in zoneComponents) {

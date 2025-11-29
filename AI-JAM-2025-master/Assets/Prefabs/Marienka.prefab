@@ -715,6 +715,7 @@ GameObject:
   - component: {fileID: 9145765142121165188}
   - component: {fileID: -4466699552368356891}
   - component: {fileID: -7859574973683756133}
+  - component: {fileID: -6110537978979107129}
   m_Layer: 0
   m_Name: Marienka
   m_TagString: Robot
@@ -953,7 +954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCrystalValue: 10000
+  blueCrystalValue: 100000
 --- !u!114 &-7859574973683756133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -972,6 +973,25 @@ MonoBehaviour:
   enemyDistanceRF: 0.495
   arenaPositionRF: 0.505
   collisionCombinationRF: 0.495
+  weaponDamageRF: 0.5
+--- !u!114 &-6110537978979107129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428795192209815909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementRF: 0.493
+  facingRF: 0.5
+  armAngleRF: 0.5
+  enemyDistanceRF: 0.483
+  arenaPositionRF: 0.507
+  collisionCombinationRF: 0.517
   weaponDamageRF: 0.5
 --- !u!1 &6523519607401396018
 GameObject:
