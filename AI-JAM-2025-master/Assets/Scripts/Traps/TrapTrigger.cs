@@ -16,14 +16,17 @@ public class TrapTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision");
         RobotAgent robot = other.gameObject.GetComponentInParent<RobotAgent>();
         if (robot == null)
             return;
-        //CollisionZoneBehaviour[]
 
-        
+        CollisionZoneBehaviour[] collisionZones = robot.GetComponentsInChildren<CollisionZoneBehaviour>(); 
+        RobotCollided(robot, collisionZones);
 
+        if (other.TryGetComponent<CollisionZoneBehaviour>(out CollisionZoneBehaviour zone))
+        {
+            RobotCollided(robot, zone);
+        }
         Debug.Log("Robot triggered a trap", this);
     }
 }

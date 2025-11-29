@@ -1,0 +1,51 @@
+{
+    "Janko": {
+        "checkpoints": [
+            {
+                "steps": 43136,
+                "file_path": "results\\Janko\\Janko\\Janko-43136.onnx",
+                "reward": -82656.22733688354,
+                "creation_time": 1764412930.2276795,
+                "auxillary_file_paths": [
+                    "results\\Janko\\Janko\\Janko-43136.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 43136,
+            "file_path": "results\\Janko\\Janko.onnx",
+            "reward": -82656.22733688354,
+            "creation_time": 1764412930.2276795,
+            "auxillary_file_paths": [
+                "results\\Janko\\Janko\\Janko-43136.pt"
+            ]
+        }
+    },
+    "Erik": {
+        "checkpoints": [
+            {
+                "steps": 43136,
+                "file_path": "results\\Janko\\Erik\\Erik-43136.onnx",
+                "reward": 179247.24321222305,
+                "creation_time": 1764412930.3854423,
+                "auxillary_file_paths": [
+                    "results\\Janko\\Erik\\Erik-43136.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 43136,
+            "file_path": "results\\Janko\\Erik.onnx",
+            "reward": 179247.24321222305,
+            "creation_time": 1764412930.3854423,
+            "auxillary_file_paths": [
+                "results\\Janko\\Erik\\Erik-43136.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

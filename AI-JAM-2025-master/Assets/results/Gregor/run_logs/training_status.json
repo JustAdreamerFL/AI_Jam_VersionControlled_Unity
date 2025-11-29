@@ -1,0 +1,29 @@
+{
+    "Gregor": {
+        "checkpoints": [
+            {
+                "steps": 455708,
+                "file_path": "results\\Gregor\\Gregor\\Gregor-455708.onnx",
+                "reward": null,
+                "creation_time": 1764435538.3061194,
+                "auxillary_file_paths": [
+                    "results\\Gregor\\Gregor\\Gregor-455708.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 455708,
+            "file_path": "results\\Gregor\\Gregor.onnx",
+            "reward": null,
+            "creation_time": 1764435538.3061194,
+            "auxillary_file_paths": [
+                "results\\Gregor\\Gregor\\Gregor-455708.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.0.1+cu117"
+    }
+}
