@@ -9,7 +9,7 @@ public class FallingBuilding : TrapTrigger
         collisionZone.ChangeHealth(-hitDamage);
         robot.AddReward(-1000);
         Debug.Log("Building destroyed");
-        DestroySelf();
+        //DestroySelf();
     }
 
     protected override void RobotCollided(RobotAgent robot, CollisionZoneBehaviour[] collisionZone)

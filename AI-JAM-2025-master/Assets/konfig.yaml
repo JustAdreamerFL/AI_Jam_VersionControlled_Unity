@@ -22,9 +22,9 @@ behaviors:
         gamma: 0.995
         strength: 1.0
 
-    max_steps: 1.5e7      # 12 miliónov krokov = typicky 12–18 hodín
+    max_steps: 1.5e7     
     time_horizon: 128
-    summary_freq: 500000
+    summary_freq: 1000
     checkpoint_interval: 1000000
     threaded: false
 
@@ -41,26 +41,20 @@ behaviors:
       learning_rate_schedule: linear
     network_settings:
       normalize: true
-      hidden_units: 256
+      hidden_units: 512
       num_layers: 2
       vis_encode_type: simple
-      # If you only have vector observations, this is enough.
-      # If you later add cameras, you'll also configure visual_observation configs.
+     
     reward_signals:
       extrinsic:
         gamma: 0.99
         strength: 1.0
-    # Optional if you plan self-play later; for now we keep it simple
-    # self_play:
-    #   save_steps: 20000
-    #   team_change: 100000
-    #   swap_steps: 20000
-    #   play_against_current_self_ratio: 0.5
-    max_steps: 5.0e6
+   
+    max_steps: 1.5e7 
     time_horizon: 64
     summary_freq: 1000
     checkpoint_interval: 500000
-    threaded: true
+    threaded: false
 
   GregorKameraBlizko:
       trainer_type: ppo
@@ -85,7 +79,7 @@ behaviors:
           gamma: 0.995
           strength: 1.0
 
-      max_steps: 1.2e8      # 12 miliónov krokov = typicky 12–18 hodín
+      max_steps: 1.2e8     
       time_horizon: 256
       summary_freq: 2000
       checkpoint_interval: 1000000
@@ -114,137 +108,44 @@ behaviors:
             gamma: 0.995
             strength: 1.0
 
-        max_steps: 1.2e7      # 12 miliónov krokov = typicky 12–18 hodín
+        max_steps: 1.2e7     
         time_horizon: 256
         summary_freq: 2000
         checkpoint_interval: 1000000
         threaded: false
 
-
   Gregor2.0:
-    trainer_type: ppo        # Algoritmus učenia – PPO je default a väčšinou dobrá voľba.
+    trainer_type: ppo
 
     hyperparameters:
-      batch_size: 1024       # Počet vzoriek na jeden update siete.
-                             # Typické rozsahy: 512 – 4096.
-                             # Menšie = rýchlejšie updaty, ale viac šumu.
-                             # Väčšie = stabilnejší ale pomalší tréning.
-                             # 1024 je rozumný kompromis pre stredne veľké prostredia.
-
-      buffer_size: 20480     # Koľko krokov sa nazbiera pred tréningom (musí byť násobok batch_size).
-                             # Typické: 10–40 × batch_size.
-                             # Väčší buffer = stabilnejší update, ale pomalšia odozva na zmeny.
-                             # Tu je to 10 × 1024, čo je OK pre väčšinu úloh.
-
-      learning_rate: 4.0e-4  # Rýchlosť učenia (ako agresívne sa menia váhy).
-                             # Typické: 1e-5 až 1e-3.
-                             # Vyššie = rýchle učenie, ale riziko nestability.
-                             # Nižšie = stabilnejšie, ale tréning trvá dlhšie.
-                             # 3e-4 je bežná „safe“ hodnota pre PPO.
-
-      beta: 5.0e-3           # Regularizácia entropie – ako veľmi agent skúša nové akcie (exploration).
-                             # Typické: 1e-4 až 1e-2.
-                             # Vyššie = viac náhodnosti (viac skúma, ale pomalšie sa ustáli).
-                             # Nižšie = rýchlejšie sa „zabije“ explorácia, môže uviaznuť v lokálnom maxime.
-                             # 5e-3 znamená relatívne silnú exploráciu na začiatok.
-
-      epsilon: 0.2           # PPO „clip“ parameter – ako veľmi sa môže policy zmeniť v jednom update.
-                             # Typické: 0.1 – 0.3.
-                             # Nižšie = menšie kroky, stabilnejšie, ale pomalšie učenie.
-                             # Vyššie = väčšie zmeny, riziko rozbitia politiky.
-                             # 0.2 je štandardná, dobrá default hodnota.
-
-      lambd: 0.95            # GAE lambda – balans medzi bias a varianciou pri výpočte advantage.
-                             # Typické: 0.9 – 0.99.
-                             # Nižšie (~0.9) = menej vyhladené, rýchlejšie reaguje.
-                             # Vyššie (~0.99) = viac vyhladené, stabilnejšie, ale menej citlivé.
-                             # 0.95 je zlatý stred, dobrý default.
-
-      num_epoch: 3           # Koľkokrát sa prejde cez buffer pri jednom update.
-                             # Typické: 3 – 10.
-                             # Viac epoch = viac „vyžmýkaš“ dáta, ale riziko overfittingu.
-                             # 3 je konzervatívne a bezpečné (často stačí).
-
+      batch_size: 1024
+      buffer_size: 20480
+      learning_rate: 4.0e-4
+      beta: 5.0e-3
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
       learning_rate_schedule: linear
-                             # Ako sa mení learning rate v čase.
-                             # 'constant' = nemení sa.
-                             # 'linear' = postupne klesá na nulu (často stabilnejší tréning).
-                             # Linear je dobré, ak tréning beží dlhšie (milióny krokov).
 
     network_settings:
-      normalize: true        # Normalizácia vstupných pozorovaní.
-                             # Vo väčšine prípadov true – pomáha stabilite (hlavne ak sú rôzne škály vstupov).
-                             # false len ak si ručne normalizuješ vstupy v Unity.
-
-      hidden_units: 256      # Počet neurónov v skrytých vrstvách.
-                             # Typické: 64, 128, 256, 512.
-                             # Viac neurónov = väčšia kapacita (lepší výkon pri komplexných úlohách),
-                             # ale pomalšie učenie + väčšie riziko preučenia.
-                             # 256 je „stredne veľká“ sieť, vhodná pre zložitejšie robotické úlohy.
-
-      num_layers: 3          # Počet skrytých vrstiev MLP. TODO: skus 2
-                             # Typické: 2 – 3.
-                             # Viac vrstiev = viac expresivity, ale aj ťažší tréning.
-                             # 2 je bezpečný default.
-
+      normalize: true
+      hidden_units: 256
+      num_layers: 3
       vis_encode_type: simple
-                             # Ako sa enkódujú vizuálne vstupy (ak máš kamery).
-                             # 'simple' = základná CNN; 'resnet' = výkonnejší, ale pomalší.
-                             # Ak nemáš vizuálne pozorovania, tento parameter veľmi neriešiš.
 
     reward_signals:
       extrinsic:
-        gamma: 0.992         # Diskontný faktor – ako ďaleko do budúcnosti agent „vidí“ odmeny.
-                             # Typické: 0.95 – 0.999.
-                             # Nižšie = zameraný na krátkodobé odmeny.
-                             # Vyššie = berie do úvahy dlhodobé ciele, ale zložitejšie učenie.
-                             # 0.99 je dobré pre epizódy so strednou až dlhšou dĺžkou.
+        gamma: 0.992
+        strength: 1.0
 
-        strength: 1.0        # Váha tohto reward signálu.
-                             # Pri viacerých typoch odmien (extrinsic, curiosity, atď.) určuje ich pomer.
-                             # Pri extrinsic je dobré použiť 1.0.
-
-    # Self-play sekcia – potrebná pri multiagent PvP.
     self_play:
-    save_steps: 20000     # Ako často sa uloží snapshot aktuálneho agenta počas tréningu.
-                           # Typické hodnoty: 10k – 50k.
-                           # Nižšie = jemnejšia evolúcia (viac snapshotov); vyššie = menej snapshotov, ale výraznejšie rozdiely.
-                           # 20000 je stabilný default pre väčšinu PvP / competitive úloh.
+      save_steps: 20000
+      team_change: 100000
+      swap_steps: 20000
+      play_against_current_self_ratio: 0.6
 
-    team_change: default   # Ako často sa prepína tréning medzi tímami (ak máš 2+ tímy).
-                           # Ak máš jedného agenta proti sebe samému, môžeš ponechať default.
-                           # Typické: 100k – 300k krokov.
-                           # Vyššie hodnoty = dlhšie obdobia učenia jedného tímu pred prepnutím.
-
-    swap_steps: 20000      # Ako často sa mení súper, proti ktorému agent hrá (zo setu uložených snapshotov).
-                           # Typické: 10k – 50k.
-                           # Nižšie = častejšie striedanie súperov (vyššia diverzita).
-                           # Vyššie = stabilnejšie učenie proti jednému súperovi.
-
-    play_against_current_self_ratio: 0.6
-                           # Pomer hier proti „aktuálnej“ verzii agenta vs. starším snapshotom.
-                           # Rozsah: 0.0 – 1.0.
-                           # 1.0 = iba proti sebe samému (rýchle, ale riziko zacyklenia).
-                           # 0.0 = iba proti starším verziám (robustné, ale pomalé).
-                           # 0.5 je odporúčaný kompromis pre väčšinu hier.
-
-
-    max_steps: 1.0e7         # Koľko krokov tréningu celkovo pre tento behavior.
-    time_horizon: 64         # Dĺžka sekvencie, cez ktorú sa počíta návratnosť odmien.
-                             # Typické: 32 – 128.
-                             # Kratší horizont = rýchlejší, ale horšie pre dlhé závislosti.
-                             # 64 = rozumný stred, často default.
-
-    summary_freq: 5000       # Ako často (v krokoch) sa zapisujú štatistiky do TensorBoard.
-                             # Menšie číslo = hustejšie logy (detailnejší priebeh, ale viac I/O).
-
+    max_steps: 1.0e7
+    time_horizon: 64
+    summary_freq: 5000
     checkpoint_interval: 500000
-                             # Ako často sa ukladajú checkpointy modelu (v krokoch).
-                             # Typické: 100k – 1M krokov.
-                             # Čím menej, tým viac verzií modelu.
-                             # 500k je fajn pre dlhší tréning – nebudeš mať stovky checkpointov.
-
-    threaded: false          # Či sa používa viac vlákien (paralelné zbieranie dát).
-                             # true môže zrýchliť tréning pri viacerých prostrediach,
-                             # ale niekedy spôsobuje bugy / nestabilitu.
-                             # false = bezpečnejšie.
+    threaded: false

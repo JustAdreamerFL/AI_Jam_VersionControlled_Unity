@@ -10,7 +10,7 @@ public class GoodHeal : TrapTrigger
 
     protected override void RobotCollided(RobotAgent robot, CollisionZoneBehaviour collisionZone)
     {
-        collisionZone.ChangeHealth(5);
+        collisionZone.ChangeHealth(0.1f);
         robot.AddReward(rewardValue);
         Destroy(gameObject);
     }

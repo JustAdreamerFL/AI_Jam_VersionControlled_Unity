@@ -96,7 +96,7 @@ public class RobotAgent : Agent {
 
     private void CollisionZone_OnDamageDealt(object sender, DamageDealtEventArgs e)
     {
-        float weaponCollisionReward = e.DamageDealt; // damage * reward multiplier
+        float weaponCollisionReward = e.DamageDealt * 1000; // damage * reward multiplier
         Debug.Log($"Calculated weapon reward: {weaponCollisionReward}, {transform.name}");
         AddReward(weaponCollisionReward * rewardEditor.weaponDamageRF);
     }

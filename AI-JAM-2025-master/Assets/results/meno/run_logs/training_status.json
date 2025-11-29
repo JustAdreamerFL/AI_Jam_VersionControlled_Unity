@@ -1,0 +1,51 @@
+{
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 4352,
+                "file_path": "results\\meno\\Marienka\\Marienka-4352.onnx",
+                "reward": null,
+                "creation_time": 1764452794.8268194,
+                "auxillary_file_paths": [
+                    "results\\meno\\Marienka\\Marienka-4352.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4352,
+            "file_path": "results\\meno\\Marienka.onnx",
+            "reward": null,
+            "creation_time": 1764452794.8268194,
+            "auxillary_file_paths": [
+                "results\\meno\\Marienka\\Marienka-4352.pt"
+            ]
+        }
+    },
+    "Janko": {
+        "checkpoints": [
+            {
+                "steps": 4352,
+                "file_path": "results\\meno\\Janko\\Janko-4352.onnx",
+                "reward": null,
+                "creation_time": 1764452794.9367454,
+                "auxillary_file_paths": [
+                    "results\\meno\\Janko\\Janko-4352.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4352,
+            "file_path": "results\\meno\\Janko.onnx",
+            "reward": null,
+            "creation_time": 1764452794.9367454,
+            "auxillary_file_paths": [
+                "results\\meno\\Janko\\Janko-4352.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

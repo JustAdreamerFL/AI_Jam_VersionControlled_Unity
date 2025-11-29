@@ -2601,7 +2601,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 6226416c8ec462f4486cd39fadeb32e1, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 8b46dccd316e7e247a7cdeac4773a06a, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Marienka
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCrystalValue: 10000
+  blueCrystalValue: 100000
 --- !u!114 &-7859574973683756133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,6 +3887,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7448320230423460939}
     m_Modifications:
+    - target: {fileID: 5935346826820513109, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
+      propertyPath: m_RenderShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935346826820513109, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6306454773753662735, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.112
@@ -3933,7 +3941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7180047887751654393, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: field of view
-      value: 100
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7180047887751654393, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: near clip plane
