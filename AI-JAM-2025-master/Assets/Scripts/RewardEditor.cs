@@ -4,6 +4,7 @@ public class RewardEditor : MonoBehaviour
 {
     [Header("Reward Factors")]
     [SerializeField, Range(0f, 1f)] public float movementRF = 0.8f;
+    [Tooltip("test")]
     [SerializeField, Range(0f, 1f)] public float facingRF = 0.5f;
     [SerializeField, Range(0f, 1f)] public float armAngleRF = 0.5f;
     [SerializeField, Range(0f, 1f)] public float enemyDistanceRF = 0.2f;

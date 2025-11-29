@@ -51,7 +51,7 @@ public class ProximitySensorRay : MonoBehaviour
                 //    //continue;
                 //}
 
-                //Debug.DrawRay(transform.position, raycastDirection * hit.distance, Color.red);
+                Debug.DrawRay(transform.position, raycastDirection * hit.distance, Color.red);
                 if (sensorValue > hit.distance) {
                     sensorValue = hit.distance;
                     switch (hit.transform.gameObject.tag) {
@@ -70,7 +70,7 @@ public class ProximitySensorRay : MonoBehaviour
                 //return;
             }
             else {
-                //Debug.DrawRay(transform.position, raycastDirection * rayDistance, Color.gray);
+                Debug.DrawRay(transform.position, raycastDirection * rayDistance, Color.gray);
             }
         }
         //Debug.Log("Closest hit distance: " + sensorValue / rayDistance);

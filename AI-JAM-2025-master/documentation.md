@@ -17,28 +17,6 @@ a ich pravidiel.
 	- [TrainingScene: Tréning a testovanie](#trainingTestingScene)
 - [Projekt pre dizajn (BLENDER)](#robotDesignProject)
 - [Projekt pre súboje (UNITY)](#tournamentProject)
-- [VS Code pracovné prostredie](#vscodeSetup)
-
-<hr/>
-
-## VS Code pracovné prostredie <a name="vscodeSetup"></a>
-Práca na sieťovom disku `/Volumes/T7` spôsobovala zlyhávanie watcherov
-(`ENOSPC`) a opakované upozornenia rozšírení (Codeium, CodeTime, Copilot SWE agent).
-Preto bola pridaná konfigurácia v súbore `.vscode/settings.json`, ktorá
-obmedzuje sledovanie veľkých priečinkov Unity a prepína VS Code na
-`files.useExperimentalFileWatcher`. Zároveň sú vypnuté automatické git
-operácie (`git.autorefresh`, `git.autofetch`), čo eliminuje zbytočné dotazy na
-`git rev-parse` pri práci offline.
-
-Rozšírenia, ktoré vyžadujú navrhované API VS Code, zostanú vypnuté, pokiaľ
-nepoužijete VS Code Insiders so spustením `code-insiders --enable-proposed-api`.
-Ak Insiders nepoužívate, odporúčame tieto rozšírenia v prostredí VS Code
-zakázať, aby sa logy nezapĺňali chybami.
-
-Git repozitár bol overený (`git rev-parse HEAD`, `git remote -v`) a smeruje na
-`https://github.com/LuLa-90/AI-JAM-2025.git`. Ak by sa podobné chyby objavili
-v budúcnosti, spustite `git rev-parse --is-inside-work-tree` z koreňa otvoreného
-workspace a skontrolujte, či VS Code nesleduje nadradený priečinok bez `.git/`.
 
 <hr/>
 
