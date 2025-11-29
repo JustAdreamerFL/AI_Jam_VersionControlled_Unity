@@ -5717,10 +5717,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 9db94bfb4ea3acc48a40fa515e3e9ace, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: e36b3998653bccc479c6f4ba29ee4f86, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: HyperMoverNarkoman
+  m_BehaviorName: Gregor
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
