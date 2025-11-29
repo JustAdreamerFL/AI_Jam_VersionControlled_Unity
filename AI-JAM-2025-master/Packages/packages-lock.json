@@ -57,7 +57,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.10.3",
+      "version": "2.10.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -98,7 +98,7 @@
       "dependencies": {
         "com.unity.animation.rigging": "1.3.0",
         "com.unity.timeline": "1.8.7",
-        "com.unity.cinemachine": "2.10.3",
+        "com.unity.cinemachine": "2.10.2",
         "com.unity.formats.fbx": "5.1.1"
       }
     },
@@ -111,8 +111,8 @@
         "com.unity.sequences": "2.1.3",
         "com.unity.formats.fbx": "5.1.1",
         "com.unity.formats.alembic": "2.4.0",
-        "com.unity.cinemachine": "2.10.3",
-        "com.unity.recorder": "5.1.2"
+        "com.unity.cinemachine": "2.10.2",
+        "com.unity.recorder": "5.1.1"
       }
     },
     "com.unity.feature.gameplay-storytelling": {
@@ -120,9 +120,9 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.cinemachine": "2.10.3",
+        "com.unity.cinemachine": "2.10.2",
         "com.unity.timeline": "1.8.7",
-        "com.unity.visualscripting": "1.9.5"
+        "com.unity.visualscripting": "1.9.4"
       }
     },
     "com.unity.feature.worldbuilding": {
@@ -232,12 +232,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "5.1.2",
+      "version": "5.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.timeline": "1.8.7",
-        "com.unity.collections": "1.2.4",
+        "com.unity.timeline": "1.0.0",
+        "com.unity.collections": "1.0.0",
         "com.unity.bindings.openimageio": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -373,7 +373,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.5",
+      "version": "1.9.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
