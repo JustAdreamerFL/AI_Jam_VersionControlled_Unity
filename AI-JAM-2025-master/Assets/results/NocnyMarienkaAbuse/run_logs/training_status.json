@@ -1,0 +1,51 @@
+{
+    "Janko": {
+        "checkpoints": [
+            {
+                "steps": 1152,
+                "file_path": "results\\NocnyMarienkaAbuse\\Janko\\Janko-1152.onnx",
+                "reward": null,
+                "creation_time": 1764451228.0612936,
+                "auxillary_file_paths": [
+                    "results\\NocnyMarienkaAbuse\\Janko\\Janko-1152.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1152,
+            "file_path": "results\\NocnyMarienkaAbuse\\Janko.onnx",
+            "reward": null,
+            "creation_time": 1764451228.0612936,
+            "auxillary_file_paths": [
+                "results\\NocnyMarienkaAbuse\\Janko\\Janko-1152.pt"
+            ]
+        }
+    },
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 1152,
+                "file_path": "results\\NocnyMarienkaAbuse\\Marienka\\Marienka-1152.onnx",
+                "reward": null,
+                "creation_time": 1764451228.224479,
+                "auxillary_file_paths": [
+                    "results\\NocnyMarienkaAbuse\\Marienka\\Marienka-1152.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1152,
+            "file_path": "results\\NocnyMarienkaAbuse\\Marienka.onnx",
+            "reward": null,
+            "creation_time": 1764451228.224479,
+            "auxillary_file_paths": [
+                "results\\NocnyMarienkaAbuse\\Marienka\\Marienka-1152.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
