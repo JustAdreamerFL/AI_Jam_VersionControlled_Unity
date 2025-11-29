@@ -1,4 +1,48 @@
 {
+    "GregorKameraDaleko": {
+        "checkpoints": [
+            {
+                "steps": 383261,
+                "file_path": "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.onnx",
+                "reward": 464433.24098899146,
+                "creation_time": 1764442372.2219229,
+                "auxillary_file_paths": [
+                    "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 383261,
+            "file_path": "results\\Gregor\\GregorKameraDaleko.onnx",
+            "reward": 464433.24098899146,
+            "creation_time": 1764442372.2219229,
+            "auxillary_file_paths": [
+                "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.pt"
+            ]
+        }
+    },
+    "GregorKameraBlizko": {
+        "checkpoints": [
+            {
+                "steps": 383261,
+                "file_path": "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.onnx",
+                "reward": 543462.6895419034,
+                "creation_time": 1764442372.3897188,
+                "auxillary_file_paths": [
+                    "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 383261,
+            "file_path": "results\\Gregor\\GregorKameraBlizko.onnx",
+            "reward": 543462.6895419034,
+            "creation_time": 1764442372.3897188,
+            "auxillary_file_paths": [
+                "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.pt"
+            ]
+        }
+    },
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "1.1.0",
