@@ -1302,7 +1302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6502343837508008149
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,6 +1364,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7448320230423460939}
     m_Modifications:
+    - target: {fileID: 5935346826820513109, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
+      propertyPath: m_RenderShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935346826820513109, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6306454773753662735, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.112
@@ -1410,7 +1418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7180047887751654393, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: field of view
-      value: 100
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7180047887751654393, guid: bbfecff0a76d3f24ea507772c328b30d, type: 3}
       propertyPath: near clip plane

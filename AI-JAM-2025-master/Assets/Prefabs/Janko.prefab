@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 2159662951265706967}
   - component: {fileID: 820587803807383075}
   - component: {fileID: 9145765142121165188}
-  - component: {fileID: -624752936001394224}
+  - component: {fileID: 6346398148468280307}
   m_Layer: 0
   m_Name: Janko
   m_TagString: Robot
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454b9588e6956784dab642bfe6911748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-624752936001394224
+--- !u!114 &6346398148468280307
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -489,16 +489,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6428795192209815909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
+  m_Script: {fileID: 11500000, guid: 02fd192518053c548a3270a74d44f829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementRF: 0.657
-  facingRF: 0.648
-  armAngleRF: 0.671
-  enemyDistanceRF: 0.652
-  arenaPositionRF: 0.595
-  collisionCombinationRF: 0.629
-  weaponDamageRF: 1
 --- !u!1 &7990922028630662190
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f5799e5ffc9394d44bdc26537b04dfe1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2898394801674235841, guid: f5799e5ffc9394d44bdc26537b04dfe1, type: 3}
       propertyPath: m_LocalScale.x

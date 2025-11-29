@@ -1,6 +1,6 @@
 YAML config
 behaviors:
-  RobotAgent:
+  Gregor2.0:
     trainer_type: ppo        # Algoritmus učenia – PPO je default a väčšinou dobrá voľba.
 
     hyperparameters:
