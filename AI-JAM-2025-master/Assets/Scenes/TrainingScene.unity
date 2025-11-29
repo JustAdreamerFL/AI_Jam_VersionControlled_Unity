@@ -4098,7 +4098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   robotPrefabA: {fileID: 395867838849753299, guid: 4c63dfd86e44f7e4e851957b530fc286, type: 3}
   robotPrefabB: {fileID: 395867838849753299, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
-  numOfArenas: 5
+  numOfArenas: 1
 --- !u!4 &1416550321
 Transform:
   m_ObjectHideFlags: 0
