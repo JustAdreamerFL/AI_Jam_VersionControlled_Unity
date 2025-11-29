@@ -39,7 +39,7 @@ public class CollisionZoneBehaviour : MonoBehaviour {
     internal void OnCollisionHit(Collision collision, CollisionZoneBehaviour enemyCollisionZone) {
         // normalised collision force
         float collisionForce = collision.impulse.magnitude / Time.fixedDeltaTime / 100000f;
-        //Debug.Log($"Collision detected with force: {collisionForce}");
+        //Debug.Log($"Collision detected with force: {collisionForce}", this);
 
         float damageTaken = 0f;
         if (enemyCollisionZone == null) {
