@@ -229,7 +229,7 @@ behaviors:
                            # 0.5 je odporúčaný kompromis pre väčšinu hier.
 
 
-    max_steps: 1.0e7         # Koľko krokov tréningu celkovo pre tento behavior.
+    max_steps: 1.1e7         # Koľko krokov tréningu celkovo pre tento behavior.
     time_horizon: 64         # Dĺžka sekvencie, cez ktorú sa počíta návratnosť odmien.
                              # Typické: 32 – 128.
                              # Kratší horizont = rýchlejší, ale horšie pre dlhé závislosti.
