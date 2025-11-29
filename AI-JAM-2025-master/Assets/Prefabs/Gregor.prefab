@@ -5547,6 +5547,7 @@ GameObject:
   - component: {fileID: 820587803807383075}
   - component: {fileID: 9145765142121165188}
   - component: {fileID: -4466699552368356891}
+  - component: {fileID: 811052989228742063}
   m_Layer: 0
   m_Name: Gregor
   m_TagString: Robot
@@ -5716,7 +5717,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 9db94bfb4ea3acc48a40fa515e3e9ace, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Gregor
@@ -5785,7 +5786,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCrystalValue: 1000
+  blueCrystalValue: 10000
+--- !u!114 &811052989228742063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428795192209815909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementRF: 0.8
+  facingRF: 0.806
+  armAngleRF: 0.806
+  enemyDistanceRF: 0.806
+  arenaPositionRF: 0.837
+  collisionCombinationRF: 0.831
+  weaponDamageRF: 0.813
 --- !u!1 &6523519607401396018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,7 +6135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6502343837508008149
 Transform:
   m_ObjectHideFlags: 0
