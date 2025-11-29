@@ -5547,6 +5547,7 @@ GameObject:
   - component: {fileID: 820587803807383075}
   - component: {fileID: 9145765142121165188}
   - component: {fileID: -4466699552368356891}
+  - component: {fileID: 2302555281789786565}
   m_Layer: 0
   m_Name: Gregor
   m_TagString: Robot
@@ -5719,7 +5720,7 @@ MonoBehaviour:
   m_Model: {fileID: 5022602860645237092, guid: bcc57be6560683b45b43ca07ece29769, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: Gregor
+  m_BehaviorName: HyperMoverNarkoman
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -5785,7 +5786,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCrystalValue: 1000
+  blueCrystalValue: 100000
+--- !u!114 &2302555281789786565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428795192209815909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementRF: 0.995
+  facingRF: 0.463
+  armAngleRF: 0.441
+  enemyDistanceRF: 0.436
+  arenaPositionRF: 0.447
+  collisionCombinationRF: 0.441
+  weaponDamageRF: 0.447
 --- !u!1 &6523519607401396018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,7 +6135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6502343837508008149
 Transform:
   m_ObjectHideFlags: 0
