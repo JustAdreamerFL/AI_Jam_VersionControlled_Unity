@@ -206,27 +206,27 @@ behaviors:
 
     # Self-play sekcia – potrebná pri multiagent PvP.
     self_play:
-    save_steps: 20000     # Ako často sa uloží snapshot aktuálneho agenta počas tréningu.
-                           # Typické hodnoty: 10k – 50k.
-                           # Nižšie = jemnejšia evolúcia (viac snapshotov); vyššie = menej snapshotov, ale výraznejšie rozdiely.
-                           # 20000 je stabilný default pre väčšinu PvP / competitive úloh.
+      save_steps: 20000     # Ako často sa uloží snapshot aktuálneho agenta počas tréningu.
+                             # Typické hodnoty: 10k – 50k.
+                             # Nižšie = jemnejšia evolúcia (viac snapshotov); vyššie = menej snapshotov, ale výraznejšie rozdiely.
+                             # 20000 je stabilný default pre väčšinu PvP / competitive úloh.
 
-    team_change: default   # Ako často sa prepína tréning medzi tímami (ak máš 2+ tímy).
-                           # Ak máš jedného agenta proti sebe samému, môžeš ponechať default.
-                           # Typické: 100k – 300k krokov.
-                           # Vyššie hodnoty = dlhšie obdobia učenia jedného tímu pred prepnutím.
+      team_change: 100000   # Ako často sa prepína tréning medzi tímami (ak máš 2+ tímy).
+                             # Ak máš jedného agenta proti sebe samému, môžeš ponechať default.
+                             # Typické: 100k – 300k krokov.
+                             # Vyššie hodnoty = dlhšie obdobia učenia jedného tímu pred prepnutím.
 
-    swap_steps: 20000      # Ako často sa mení súper, proti ktorému agent hrá (zo setu uložených snapshotov).
-                           # Typické: 10k – 50k.
-                           # Nižšie = častejšie striedanie súperov (vyššia diverzita).
-                           # Vyššie = stabilnejšie učenie proti jednému súperovi.
+      swap_steps: 20000      # Ako často sa mení súper, proti ktorému agent hrá (zo setu uložených snapshotov).
+                             # Typické: 10k – 50k.
+                             # Nižšie = častejšie striedanie súperov (vyššia diverzita).
+                             # Vyššie = stabilnejšie učenie proti jednému súperovi.
 
-    play_against_current_self_ratio: 0.6
-                           # Pomer hier proti „aktuálnej“ verzii agenta vs. starším snapshotom.
-                           # Rozsah: 0.0 – 1.0.
-                           # 1.0 = iba proti sebe samému (rýchle, ale riziko zacyklenia).
-                           # 0.0 = iba proti starším verziám (robustné, ale pomalé).
-                           # 0.5 je odporúčaný kompromis pre väčšinu hier.
+      play_against_current_self_ratio: 0.6
+                             # Pomer hier proti „aktuálnej“ verzii agenta vs. starším snapshotom.
+                             # Rozsah: 0.0 – 1.0.
+                             # 1.0 = iba proti sebe samému (rýchle, ale riziko zacyklenia).
+                             # 0.0 = iba proti starším verziám (robustné, ale pomalé).
+                             # 0.5 je odporúčaný kompromis pre väčšinu hier.
 
 
     max_steps: 1.1e7         # Koľko krokov tréningu celkovo pre tento behavior.
