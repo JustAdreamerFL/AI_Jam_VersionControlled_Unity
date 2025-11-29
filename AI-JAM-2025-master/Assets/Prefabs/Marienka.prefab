@@ -5717,10 +5717,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: bfce131869e299e4380a4260bb35e3db, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 6226416c8ec462f4486cd39fadeb32e1, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: Default
+  m_BehaviorName: Marienka
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
