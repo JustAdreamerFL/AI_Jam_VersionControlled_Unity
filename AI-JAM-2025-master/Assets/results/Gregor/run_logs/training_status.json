@@ -1,23 +1,45 @@
 {
-    "Gregor": {
+    "GregorKameraDaleko": {
         "checkpoints": [
             {
-                "steps": 455708,
-                "file_path": "results\\Gregor\\Gregor\\Gregor-455708.onnx",
-                "reward": null,
-                "creation_time": 1764435538.3061194,
+                "steps": 383261,
+                "file_path": "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.onnx",
+                "reward": 464433.24098899146,
+                "creation_time": 1764442372.2219229,
                 "auxillary_file_paths": [
-                    "results\\Gregor\\Gregor\\Gregor-455708.pt"
+                    "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 455708,
-            "file_path": "results\\Gregor\\Gregor.onnx",
-            "reward": null,
-            "creation_time": 1764435538.3061194,
+            "steps": 383261,
+            "file_path": "results\\Gregor\\GregorKameraDaleko.onnx",
+            "reward": 464433.24098899146,
+            "creation_time": 1764442372.2219229,
             "auxillary_file_paths": [
-                "results\\Gregor\\Gregor\\Gregor-455708.pt"
+                "results\\Gregor\\GregorKameraDaleko\\GregorKameraDaleko-383261.pt"
+            ]
+        }
+    },
+    "GregorKameraBlizko": {
+        "checkpoints": [
+            {
+                "steps": 383261,
+                "file_path": "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.onnx",
+                "reward": 543462.6895419034,
+                "creation_time": 1764442372.3897188,
+                "auxillary_file_paths": [
+                    "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 383261,
+            "file_path": "results\\Gregor\\GregorKameraBlizko.onnx",
+            "reward": 543462.6895419034,
+            "creation_time": 1764442372.3897188,
+            "auxillary_file_paths": [
+                "results\\Gregor\\GregorKameraBlizko\\GregorKameraBlizko-383261.pt"
             ]
         }
     },

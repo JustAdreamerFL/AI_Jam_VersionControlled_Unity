@@ -5610,7 +5610,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &3857644404252730747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5717,10 +5717,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: e36b3998653bccc479c6f4ba29ee4f86, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: HyperMoverNarkoman
+  m_BehaviorName: Gregor
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
