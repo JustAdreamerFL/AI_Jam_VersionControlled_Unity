@@ -1,0 +1,69 @@
+{
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 112601,
+                "file_path": "results\\DefaultVSHyper\\Marienka\\Marienka-112601.onnx",
+                "reward": 27006083775.210556,
+                "creation_time": 1764436952.0284348,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Marienka\\Marienka-112601.pt"
+                ]
+            },
+            {
+                "steps": 544065,
+                "file_path": "results\\DefaultVSHyper\\Marienka\\Marienka-544065.onnx",
+                "reward": 70701176388.26666,
+                "creation_time": 1764441568.2547932,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Marienka\\Marienka-544065.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 544065,
+            "file_path": "results\\DefaultVSHyper\\Marienka.onnx",
+            "reward": 70701176388.26666,
+            "creation_time": 1764441568.2547932,
+            "auxillary_file_paths": [
+                "results\\DefaultVSHyper\\Marienka\\Marienka-544065.pt"
+            ]
+        }
+    },
+    "Gregor": {
+        "checkpoints": [
+            {
+                "steps": 111705,
+                "file_path": "results\\DefaultVSHyper\\Gregor\\Gregor-111705.onnx",
+                "reward": 20539904171.519997,
+                "creation_time": 1764436952.1999202,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Gregor\\Gregor-111705.pt"
+                ]
+            },
+            {
+                "steps": 542785,
+                "file_path": "results\\DefaultVSHyper\\Gregor\\Gregor-542785.onnx",
+                "reward": 59451000709.2087,
+                "creation_time": 1764441568.469503,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Gregor\\Gregor-542785.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 542785,
+            "file_path": "results\\DefaultVSHyper\\Gregor.onnx",
+            "reward": 59451000709.2087,
+            "creation_time": 1764441568.469503,
+            "auxillary_file_paths": [
+                "results\\DefaultVSHyper\\Gregor\\Gregor-542785.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
