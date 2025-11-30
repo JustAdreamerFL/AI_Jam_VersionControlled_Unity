@@ -18,15 +18,42 @@
                 "auxillary_file_paths": [
                     "results\\DefaultVSHyper\\Marienka\\Marienka-544065.pt"
                 ]
+            },
+            {
+                "steps": 585122,
+                "file_path": "results\\DefaultVSHyper\\Marienka\\Marienka-585122.onnx",
+                "reward": null,
+                "creation_time": 1764473707.0159373,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Marienka\\Marienka-585122.pt"
+                ]
+            },
+            {
+                "steps": 614460,
+                "file_path": "results\\DefaultVSHyper\\Marienka\\Marienka-614460.onnx",
+                "reward": -1661130.1360473633,
+                "creation_time": 1764474891.3198972,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Marienka\\Marienka-614460.pt"
+                ]
+            },
+            {
+                "steps": 655422,
+                "file_path": "results\\DefaultVSHyper\\Marienka\\Marienka-655422.onnx",
+                "reward": null,
+                "creation_time": 1764475274.9630446,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Marienka\\Marienka-655422.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 544065,
+            "steps": 655422,
             "file_path": "results\\DefaultVSHyper\\Marienka.onnx",
-            "reward": 70701176388.26666,
-            "creation_time": 1764441568.2547932,
+            "reward": null,
+            "creation_time": 1764475274.9630446,
             "auxillary_file_paths": [
-                "results\\DefaultVSHyper\\Marienka\\Marienka-544065.pt"
+                "results\\DefaultVSHyper\\Marienka\\Marienka-655422.pt"
             ]
         }
     },
@@ -64,6 +91,38 @@
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "1.1.0",
-        "torch_version": "2.2.2+cu121"
+        "torch_version": "2.0.1+cu117"
+    },
+    "Gregor2.0": {
+        "elo": 1200.006992886472,
+        "checkpoints": [
+            {
+                "steps": 847525,
+                "file_path": "results\\DefaultVSHyper\\Gregor2.0\\Gregor2.0-847525.onnx",
+                "reward": null,
+                "creation_time": 1764473706.8194647,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Gregor2.0\\Gregor2.0-847525.pt"
+                ]
+            },
+            {
+                "steps": 876607,
+                "file_path": "results\\DefaultVSHyper\\Gregor2.0\\Gregor2.0-876607.onnx",
+                "reward": null,
+                "creation_time": 1764474891.1175845,
+                "auxillary_file_paths": [
+                    "results\\DefaultVSHyper\\Gregor2.0\\Gregor2.0-876607.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 876607,
+            "file_path": "results\\DefaultVSHyper\\Gregor2.0.onnx",
+            "reward": null,
+            "creation_time": 1764474891.1175845,
+            "auxillary_file_paths": [
+                "results\\DefaultVSHyper\\Gregor2.0\\Gregor2.0-876607.pt"
+            ]
+        }
     }
 }
