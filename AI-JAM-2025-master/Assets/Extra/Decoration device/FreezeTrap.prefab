@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615f300f23887cc41bc87aafd1634b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freezeDuration: 5
-  freezeUnactiveDuration: 2
+  freezeDuration: 3
+  freezeUnactiveDuration: 10
   animator: {fileID: 5049364122174952933}
 --- !u!65 &4507360899704702775
 BoxCollider:
