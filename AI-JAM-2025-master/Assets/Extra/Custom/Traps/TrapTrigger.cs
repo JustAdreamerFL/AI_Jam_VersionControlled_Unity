@@ -17,6 +17,8 @@ public class TrapTrigger : MonoBehaviour
 
     protected void SpawnTriggerParticle()
     {
+        if (triggerParticle == null || particleSpawnPos == null)
+            return;
         ParticleSystem particles = Instantiate(triggerParticle, particleSpawnPos.position, Quaternion.identity);
         particles.Play();
     }
