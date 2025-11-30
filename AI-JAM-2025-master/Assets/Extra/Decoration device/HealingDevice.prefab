@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 4214161165839267455}
   - component: {fileID: 5716642655065093108}
   - component: {fileID: 916001358906818054}
+  - component: {fileID: 3318828722145441917}
   - component: {fileID: 285981972127531861}
   m_Layer: 0
   m_Name: HealingDevice
@@ -256,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggerParticle: {fileID: 0}
-  particleSpawnPos: {fileID: 0}
+  particleSpawnPos: {fileID: 3428946309444217308}
   rewardValue: 1000
   healAmout: 0.15
   healtParticles: {fileID: 0}
@@ -288,6 +289,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 2
+--- !u!65 &3318828722145441917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512706246427450233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15, y: 0.15, z: 0.15}
+  m_Center: {x: 0, y: 0.08, z: 0}
 --- !u!65 &285981972127531861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -307,5 +329,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.3, y: 0.18, z: 0.3}
   m_Center: {x: 0, y: 0.08, z: 0}
