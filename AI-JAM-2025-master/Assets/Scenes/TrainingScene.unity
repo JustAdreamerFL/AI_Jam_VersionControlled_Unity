@@ -403,13 +403,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementRF: 0.3
-  facingRF: 1
-  armAngleRF: 1
-  enemyDistanceRF: 1
+  movementRF: 0.642
+  facingRF: 0.884
+  armAngleRF: 0.491
+  enemyDistanceRF: 0.717
   arenaPositionRF: 0.7
   collisionCombinationRF: 1
-  weaponDamageRF: 0.5
+  weaponDamageRF: 1
 --- !u!4 &1701397034
 Transform:
   m_ObjectHideFlags: 0

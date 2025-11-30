@@ -984,7 +984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146686655972027685, guid: 18657ebc7f14a114083ffe3a026b3e33, type: 3}
       propertyPath: m_TagString
-      value: Robot
+      value: ButtTag
       objectReference: {fileID: 0}
     - target: {fileID: 6306454773753662735, guid: 18657ebc7f14a114083ffe3a026b3e33, type: 3}
       propertyPath: m_LocalPosition.x
