@@ -1679,7 +1679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7448320230423460939, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.207
+      value: 0.264
       objectReference: {fileID: 0}
     - target: {fileID: 7448320230423460939, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1687,7 +1687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7448320230423460939, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.68
+      value: 1.523
       objectReference: {fileID: 0}
     - target: {fileID: 7448320230423460939, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1798,6 +1798,10 @@ PrefabInstance:
     - target: {fileID: 3604034604690256621, guid: 6958cdd49db1a214f8e5793ad7109394, type: 3}
       propertyPath: m_Name
       value: MechVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395407014420893593, guid: 6958cdd49db1a214f8e5793ad7109394, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5537262433727315149, guid: 6958cdd49db1a214f8e5793ad7109394, type: 3}
       propertyPath: rb
