@@ -23,6 +23,7 @@
 *.booproj
 *.svd
 *.pdb
+packages lock.json
 
 # Local environment artifacts
 .DS_Store

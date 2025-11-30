@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class TrapTrigger : MonoBehaviour
 {
-     
+    [SerializeField] protected ParticleSystem triggerParticle;
+    [SerializeField] protected Transform particleSpawnPos;
+
     protected virtual void RobotCollided(RobotAgent robot, CollisionZoneBehaviour[] collisionZone)
     {
 
@@ -11,6 +13,12 @@ public class TrapTrigger : MonoBehaviour
     protected virtual void RobotCollided(RobotAgent robot, CollisionZoneBehaviour collisionZone)
     {
 
+    }
+
+    protected void SpawnTriggerParticle()
+    {
+        ParticleSystem particles = Instantiate(triggerParticle, particleSpawnPos.position, Quaternion.identity);
+        particles.Play();
     }
 
 
