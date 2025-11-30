@@ -138,11 +138,11 @@ behaviors:
         gamma: 0.992
         strength: 1.0
 
-    self_play:
-      save_steps: 20000
-      team_change: 100000
-      swap_steps: 20000
-      play_against_current_self_ratio: 0.6
+    # self_play:
+    #   save_steps: 20000
+    #   team_change: 100000
+    #   swap_steps: 20000
+    #   play_against_current_self_ratio: 0.6
 
     max_steps: 1.0e7
     time_horizon: 64

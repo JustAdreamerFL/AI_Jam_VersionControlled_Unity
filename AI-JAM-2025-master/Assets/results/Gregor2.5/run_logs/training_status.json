@@ -1,0 +1,65 @@
+{
+    "Gregor2.0": {
+        "checkpoints": [
+            {
+                "steps": 2499984,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2499984.onnx",
+                "reward": 875912.2465845743,
+                "creation_time": 1764485853.3347716,
+                "auxillary_file_paths": [
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2499984.pt"
+                ]
+            },
+            {
+                "steps": 2999972,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2999972.onnx",
+                "reward": 1141452.0370117188,
+                "creation_time": 1764489751.2997277,
+                "auxillary_file_paths": [
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2999972.pt"
+                ]
+            },
+            {
+                "steps": 3499980,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3499980.onnx",
+                "reward": -2236591.8714904785,
+                "creation_time": 1764493636.8661952,
+                "auxillary_file_paths": [
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3499980.pt"
+                ]
+            },
+            {
+                "steps": 3999964,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3999964.onnx",
+                "reward": 2514074.292022705,
+                "creation_time": 1764497482.5780423,
+                "auxillary_file_paths": [
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3999964.pt"
+                ]
+            },
+            {
+                "steps": 4479918,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.onnx",
+                "reward": 2392093.053782145,
+                "creation_time": 1764501624.6830082,
+                "auxillary_file_paths": [
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4479918,
+            "file_path": "results\\Gregor2.5\\Gregor2.0.onnx",
+            "reward": 2392093.053782145,
+            "creation_time": 1764501624.6830082,
+            "auxillary_file_paths": [
+                "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.0.1+cu117"
+    }
+}

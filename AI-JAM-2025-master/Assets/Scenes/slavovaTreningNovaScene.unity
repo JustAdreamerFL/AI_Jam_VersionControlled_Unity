@@ -244,13 +244,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4217dd11159074e9293c1d77437f93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementRF: 0.3
+  movementRF: 0.597
   facingRF: 1
   armAngleRF: 1
-  enemyDistanceRF: 1
-  arenaPositionRF: 0.7
-  collisionCombinationRF: 1
-  weaponDamageRF: 0.5
+  enemyDistanceRF: 0.887
+  arenaPositionRF: 0.734
+  collisionCombinationRF: 0.392
+  weaponDamageRF: 0.512
 --- !u!4 &1701397034
 Transform:
   m_ObjectHideFlags: 0
@@ -606,6 +606,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 550810866675029672, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: hitDamage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 747040155868454187, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -712,6 +716,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525431664467250831, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632164621900421107, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: hitDamage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1730271998052327012, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
@@ -1178,6 +1186,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.19
       objectReference: {fileID: 0}
+    - target: {fileID: 5860321655788169478, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: hitDamage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5936694339227776837, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1577,6 +1589,10 @@ PrefabInstance:
     - target: {fileID: 8281604918137620265, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574646850611361873, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: hitDamage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690065484898425377, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y

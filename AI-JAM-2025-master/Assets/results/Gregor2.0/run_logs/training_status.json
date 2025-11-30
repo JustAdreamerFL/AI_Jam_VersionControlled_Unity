@@ -1,24 +1,24 @@
 {
     "Gregor2.0": {
-        "elo": 1165.077447201028,
+        "elo": 792.3456686205102,
         "checkpoints": [
             {
-                "steps": 22126,
-                "file_path": "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-22126.onnx",
-                "reward": -14451.554934680462,
-                "creation_time": 1764451959.9034727,
+                "steps": 188984,
+                "file_path": "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-188984.onnx",
+                "reward": 870407.1908830915,
+                "creation_time": 1764455227.4629798,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-22126.pt"
+                    "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-188984.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 22126,
+            "steps": 188984,
             "file_path": "results\\Gregor2.0\\Gregor2.0.onnx",
-            "reward": -14451.554934680462,
-            "creation_time": 1764451959.9034727,
+            "reward": 870407.1908830915,
+            "creation_time": 1764455227.4629798,
             "auxillary_file_paths": [
-                "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-22126.pt"
+                "results\\Gregor2.0\\Gregor2.0\\Gregor2.0-188984.pt"
             ]
         }
     },
