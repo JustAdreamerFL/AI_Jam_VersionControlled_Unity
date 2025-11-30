@@ -1866,9 +1866,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 527381248980501207, guid: c4ba7d4b0a6888f46b2794a93886592e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040515475569435394, guid: c4ba7d4b0a6888f46b2794a93886592e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707985403752770938, guid: c4ba7d4b0a6888f46b2794a93886592e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3893920837816801082, guid: c4ba7d4b0a6888f46b2794a93886592e, type: 3}
       propertyPath: m_Name
       value: Arm_Shape1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509314960635972783, guid: c4ba7d4b0a6888f46b2794a93886592e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1969,6 +1985,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5640155222083185879, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144360399312162050, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6712562983231509806, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
       propertyPath: m_Name
       value: Bumper_Shape1
@@ -1991,6 +2015,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7448320230423460939}
     m_Modifications:
+    - target: {fileID: 2810894857749959845, guid: 5e113f3325aa9644982407c5bc499c88, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454177560273328628, guid: 5e113f3325aa9644982407c5bc499c88, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5474942442113359277, guid: 5e113f3325aa9644982407c5bc499c88, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2121,7 +2153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f5799e5ffc9394d44bdc26537b04dfe1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2898394801674235841, guid: f5799e5ffc9394d44bdc26537b04dfe1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2193,6 +2225,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5640155222083185879, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144360399312162050, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6712562983231509806, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
       propertyPath: m_Name
       value: Bumper_Shape1 (1)
@@ -2218,6 +2258,14 @@ PrefabInstance:
     - target: {fileID: 4287508156747798399, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
       propertyPath: m_Name
       value: Wheels_Shape1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725711393338917633, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527375063242777300, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8456575760935814851, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2395,6 +2443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5640155222083185879, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144360399312162050, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6712562983231509806, guid: 39ea9e5a6abd277468fec1d2fc930a69, type: 3}
       propertyPath: m_Name
       value: Bumper_Shape1 (2)
@@ -2419,6 +2475,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 704489431241055465, guid: 8c563d42195b1654e9499b8fac2d14f8, type: 3}
       propertyPath: raySensorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545384314682791946, guid: 8c563d42195b1654e9499b8fac2d14f8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6306454773753662735, guid: 8c563d42195b1654e9499b8fac2d14f8, type: 3}
@@ -2509,6 +2569,10 @@ PrefabInstance:
       propertyPath: raySensorType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4545384314682791946, guid: 8c563d42195b1654e9499b8fac2d14f8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6306454773753662735, guid: 8c563d42195b1654e9499b8fac2d14f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0327
@@ -2596,6 +2660,14 @@ PrefabInstance:
     - target: {fileID: 4287508156747798399, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
       propertyPath: m_Name
       value: Wheels_Shape1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725711393338917633, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527375063242777300, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8456575760935814851, guid: 43003ec47f5847540b4943bd78da1073, type: 3}
       propertyPath: m_LocalPosition.x

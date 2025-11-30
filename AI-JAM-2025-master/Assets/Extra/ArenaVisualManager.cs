@@ -37,7 +37,7 @@ public class ArenaVisualManager : MonoBehaviour
 
         Vector3 pos = GetRandomXZPosition(centerPoint, spawnRadius, _lockedY);
         Quaternion rot = Quaternion.Euler(-90f, Random.Range(0f,360f), 0f); // x rotation at -90
-        return Instantiate(autoPrefabrikat, pos, rot);
+        return Instantiate(autoPrefabrikat, pos, rot, transform);
     }
 
     // Utility: random XZ around center with locked Y

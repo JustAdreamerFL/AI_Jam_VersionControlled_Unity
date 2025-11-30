@@ -87,7 +87,7 @@ public class DroneDropLogic : MonoBehaviour
         }
 
         var spawnPos = transform.position + Vector3.down * Mathf.Max(0.0f, attachDistanceBelowDrone);
-        var go = Instantiate(cratePrefab, spawnPos, Quaternion.identity);
+        var go = Instantiate(cratePrefab, spawnPos, Quaternion.identity ,transform);
         var rb = go.GetComponent<Rigidbody>();
         if (rb == null)
         {
