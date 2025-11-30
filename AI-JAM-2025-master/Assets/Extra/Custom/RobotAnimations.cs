@@ -20,10 +20,10 @@ public class RobotAnimations : MonoBehaviour
             Debug.LogWarning("Weapon collision zone is not set, shooting animation wont be played!", this);
             return;
         }
-        weaponCollisionZone.OnDamageDealt += WeaponCollisionZone_OnDamageDealt;
+        weaponCollisionZone.OnCollision += WeaponCollisionZone_OnCollision;
     }
 
-    private void WeaponCollisionZone_OnDamageDealt(object sender, CollisionZoneBehaviour.DamageDealtEventArgs e)
+    private void WeaponCollisionZone_OnCollision(object sender, CollisionZoneBehaviour.CollisionEventArgs e)
     {
         animator.SetTrigger("shoot");
     }
@@ -40,8 +40,4 @@ public class RobotAnimations : MonoBehaviour
         particle.Play();
     }
 
-    private void OnDestroy()
-    {
-        weaponCollisionZone.OnDamageDealt -= WeaponCollisionZone_OnDamageDealt;
-    }
 }
