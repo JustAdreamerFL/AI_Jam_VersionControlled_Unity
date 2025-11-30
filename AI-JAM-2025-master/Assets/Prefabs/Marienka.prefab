@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6ad138579c8245a6bec121ba06a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCrystalValue: 100000
+  blueCrystalValue: 1000000
 --- !u!114 &-7859574973683756133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementRF: 0.757
-  facingRF: 0.543
+  facingRF: 0.581
   armAngleRF: 0.614
   enemyDistanceRF: 0.662
   arenaPositionRF: 0.514
