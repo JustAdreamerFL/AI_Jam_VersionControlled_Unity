@@ -29,7 +29,7 @@ public class RobotAgent : Agent {
     [SerializeField] private RewardEditor rewardEditor;
     private BehaviorParameters behavior;
     private RobotMovement robotMovement;
-    private CollisionZoneBehaviour[] zoneComponents;
+    public CollisionZoneBehaviour[] zoneComponents;
     private IHealth[] healthComponents;
     [HideInInspector] public RobotAgent enemyRobot;
     private bool isHeuristic = false;
@@ -41,10 +41,6 @@ public class RobotAgent : Agent {
 
     //[SerializeField] private float tempAngleToEnemy;
 
-
-    //Custom
-    private CollisionZoneBehaviour[] weaponCollisionZones;
-    //Custom
 
     // --------------------------- INITIALIZATION METHODS ---------------------------
 
@@ -58,8 +54,6 @@ public class RobotAgent : Agent {
         zoneComponents = GetComponentsInChildren<CollisionZoneBehaviour>();
         healthComponents = GetComponentsInChildren<IHealth>();
         //Debug.Log($"RobotAgent found {zoneComponents.Length} collision zones and {healthComponents.Length} health components.");
-
-        FindWeapons();
 
         rb = gameObject.GetComponent<Rigidbody>();
 
@@ -78,27 +72,6 @@ public class RobotAgent : Agent {
             zone.OnCollision += HandleZoneCollision;    // prihlad funkciu na event aby sme v okamziku dali velku odmenu za zasah nepriatela
         }
    
-    }
-
-    private void FindWeapons()
-    {
-        weaponCollisionZones = new CollisionZoneBehaviour[2];
-        int index = 0;
-        foreach (CollisionZoneBehaviour collisionZone in zoneComponents)
-        {
-            if (collisionZone.gameObject.CompareTag("RobotArm"))
-            {
-                weaponCollisionZones[index++] = collisionZone;
-                collisionZone.OnDamageDealt += CollisionZone_OnDamageDealt;
-            }
-        }
-    }
-
-    private void CollisionZone_OnDamageDealt(object sender, DamageDealtEventArgs e)
-    {
-        float weaponCollisionReward = e.DamageDealt * 1000; // damage * reward multiplier
-        Debug.Log($"Calculated weapon reward: {weaponCollisionReward}, {transform.name}");
-        AddReward(weaponCollisionReward * rewardEditor.weaponDamageRF);
     }
 
     public void HandleZoneCollision(object sender, CollisionZoneBehaviour.CollisionEventArgs e)
@@ -350,16 +323,6 @@ public class RobotAgent : Agent {
             }
         }
         return 0f;
-    }
-
-    //returns average weapon collision reward
-    private float GetRewards_WeaponDamage()
-    {
-        if (weaponCollisionZones.Length == 0)
-            return 0;
-
-        float collisionReward = zoneComponents.Average(z => z.RewardOfCollision);
-        return collisionReward;
     }
 
 

@@ -2,116 +2,116 @@
     "Marienka": {
         "checkpoints": [
             {
-                "steps": 469648,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-469648.onnx",
-                "reward": 990641.5476413303,
-                "creation_time": 1764448998.2579029,
-                "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-469648.pt"
-                ]
-            },
-            {
-                "steps": 470288,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-470288.onnx",
+                "steps": 617708,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-617708.onnx",
                 "reward": null,
-                "creation_time": 1764449095.7370284,
+                "creation_time": 1764453904.6375148,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-470288.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-617708.pt"
                 ]
             },
             {
-                "steps": 493047,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-493047.onnx",
-                "reward": 540622.1703812449,
-                "creation_time": 1764449426.1157198,
-                "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-493047.pt"
-                ]
-            },
-            {
-                "steps": 494327,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-494327.onnx",
+                "steps": 658681,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-658681.onnx",
                 "reward": null,
-                "creation_time": 1764449533.981516,
+                "creation_time": 1764455120.6357408,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-494327.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-658681.pt"
                 ]
             },
             {
-                "steps": 537763,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-537763.onnx",
-                "reward": 636771.7840169271,
-                "creation_time": 1764450166.3154943,
+                "steps": 659065,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-659065.onnx",
+                "reward": null,
+                "creation_time": 1764455477.2760713,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-537763.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-659065.pt"
+                ]
+            },
+            {
+                "steps": 660345,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-660345.onnx",
+                "reward": null,
+                "creation_time": 1764455596.2659013,
+                "auxillary_file_paths": [
+                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-660345.pt"
+                ]
+            },
+            {
+                "steps": 0,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-0.onnx",
+                "reward": null,
+                "creation_time": 1764455707.69864,
+                "auxillary_file_paths": [
+                    "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-0.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 537763,
+            "steps": 0,
             "file_path": "results\\HyperMovementNarkomanVSdefault\\Marienka.onnx",
-            "reward": 636771.7840169271,
-            "creation_time": 1764450166.3154943,
+            "reward": null,
+            "creation_time": 1764455707.69864,
             "auxillary_file_paths": [
-                "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-537763.pt"
+                "results\\HyperMovementNarkomanVSdefault\\Marienka\\Marienka-0.pt"
             ]
         }
     },
     "Janko": {
         "checkpoints": [
             {
-                "steps": 470736,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-470736.onnx",
+                "steps": 619308,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-619308.onnx",
+                "reward": -22914.53712436743,
+                "creation_time": 1764453904.7751281,
+                "auxillary_file_paths": [
+                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-619308.pt"
+                ]
+            },
+            {
+                "steps": 660281,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-660281.onnx",
+                "reward": 926623.9429016113,
+                "creation_time": 1764455120.4190807,
+                "auxillary_file_paths": [
+                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-660281.pt"
+                ]
+            },
+            {
+                "steps": 660729,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-660729.onnx",
                 "reward": null,
-                "creation_time": 1764449095.497113,
+                "creation_time": 1764455477.4337776,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-470736.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-660729.pt"
                 ]
             },
             {
-                "steps": 493751,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-493751.onnx",
-                "reward": -277649.221089229,
-                "creation_time": 1764449425.9367664,
-                "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-493751.pt"
-                ]
-            },
-            {
-                "steps": 495351,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-495351.onnx",
+                "steps": 662137,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-662137.onnx",
                 "reward": null,
-                "creation_time": 1764449533.8214047,
+                "creation_time": 1764455596.072501,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-495351.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-662137.pt"
                 ]
             },
             {
-                "steps": 499959,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-499959.onnx",
+                "steps": 662137,
+                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-662137.onnx",
                 "reward": null,
-                "creation_time": 1764449782.1246212,
+                "creation_time": 1764455707.5465643,
                 "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-499959.pt"
-                ]
-            },
-            {
-                "steps": 539363,
-                "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-539363.onnx",
-                "reward": 168587.820215861,
-                "creation_time": 1764450166.131094,
-                "auxillary_file_paths": [
-                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-539363.pt"
+                    "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-662137.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 539363,
+            "steps": 662137,
             "file_path": "results\\HyperMovementNarkomanVSdefault\\Janko.onnx",
-            "reward": 168587.820215861,
-            "creation_time": 1764450166.131094,
+            "reward": null,
+            "creation_time": 1764455707.5465643,
             "auxillary_file_paths": [
-                "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-539363.pt"
+                "results\\HyperMovementNarkomanVSdefault\\Janko\\Janko-662137.pt"
             ]
         }
     },

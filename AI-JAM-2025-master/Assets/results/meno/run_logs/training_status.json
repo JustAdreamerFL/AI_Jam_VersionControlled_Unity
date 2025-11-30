@@ -2,44 +2,62 @@
     "Marienka": {
         "checkpoints": [
             {
-                "steps": 4352,
-                "file_path": "results\\meno\\Marienka\\Marienka-4352.onnx",
+                "steps": 640,
+                "file_path": "results\\meno\\Marienka\\Marienka-640.onnx",
                 "reward": null,
-                "creation_time": 1764452794.8268194,
+                "creation_time": 1764472268.7965324,
                 "auxillary_file_paths": [
-                    "results\\meno\\Marienka\\Marienka-4352.pt"
+                    "results\\meno\\Marienka\\Marienka-640.pt"
+                ]
+            },
+            {
+                "steps": 481492,
+                "file_path": "results\\meno\\Marienka\\Marienka-481492.onnx",
+                "reward": null,
+                "creation_time": 1764483600.0359714,
+                "auxillary_file_paths": [
+                    "results\\meno\\Marienka\\Marienka-481492.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 4352,
+            "steps": 481492,
             "file_path": "results\\meno\\Marienka.onnx",
             "reward": null,
-            "creation_time": 1764452794.8268194,
+            "creation_time": 1764483600.0359714,
             "auxillary_file_paths": [
-                "results\\meno\\Marienka\\Marienka-4352.pt"
+                "results\\meno\\Marienka\\Marienka-481492.pt"
             ]
         }
     },
     "Janko": {
         "checkpoints": [
             {
-                "steps": 4352,
-                "file_path": "results\\meno\\Janko\\Janko-4352.onnx",
+                "steps": 704,
+                "file_path": "results\\meno\\Janko\\Janko-704.onnx",
                 "reward": null,
-                "creation_time": 1764452794.9367454,
+                "creation_time": 1764472268.9158401,
                 "auxillary_file_paths": [
-                    "results\\meno\\Janko\\Janko-4352.pt"
+                    "results\\meno\\Janko\\Janko-704.pt"
+                ]
+            },
+            {
+                "steps": 481556,
+                "file_path": "results\\meno\\Janko\\Janko-481556.onnx",
+                "reward": null,
+                "creation_time": 1764483599.826887,
+                "auxillary_file_paths": [
+                    "results\\meno\\Janko\\Janko-481556.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 4352,
+            "steps": 481556,
             "file_path": "results\\meno\\Janko.onnx",
             "reward": null,
-            "creation_time": 1764452794.9367454,
+            "creation_time": 1764483599.826887,
             "auxillary_file_paths": [
-                "results\\meno\\Janko\\Janko-4352.pt"
+                "results\\meno\\Janko\\Janko-481556.pt"
             ]
         }
     },

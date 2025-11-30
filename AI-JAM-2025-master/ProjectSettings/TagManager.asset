@@ -11,6 +11,10 @@ TagManager:
   - RobotCamera
   - RobotArm
   - Environment
+  - RobotBody
+  - RobotBattery
+  - RobotBumper
+  - RobotWheels
   layers:
   - Default
   - TransparentFX
