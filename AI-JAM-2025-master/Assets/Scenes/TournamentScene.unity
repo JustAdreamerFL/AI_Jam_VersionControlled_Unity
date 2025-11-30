@@ -595,6 +595,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2518374490803872417, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2965902442146627885, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1079,6 +1083,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6347036711830453955, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6565352945088709079, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1342,6 +1350,10 @@ PrefabInstance:
     - target: {fileID: 7379983774991191740, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380685151782718866, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7418156649883632561, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1612,7 +1624,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3505839607595859821, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4151783066072282023, guid: 2669f4d63884c884489dc98fc6057534, type: 3}
       insertIndex: -1
@@ -1844,7 +1857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   robotPrefabA: {fileID: 395867838849753299, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
-  robotPrefabB: {fileID: 395867838849753299, guid: 4c63dfd86e44f7e4e851957b530fc286, type: 3}
+  robotPrefabB: {fileID: 395867838849753299, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
   numOfArenas: 1
 --- !u!4 &1854428816
 Transform:

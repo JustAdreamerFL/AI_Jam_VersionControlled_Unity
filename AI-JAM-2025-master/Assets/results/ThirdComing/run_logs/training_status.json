@@ -1,0 +1,70 @@
+{
+    "Gregor2.0": {
+        "checkpoints": [
+            {
+                "steps": 499949,
+                "file_path": "results\\ThirdComing\\Gregor2.0\\Gregor2.0-499949.onnx",
+                "reward": 72312686.0,
+                "creation_time": 1764465773.5441988,
+                "auxillary_file_paths": [
+                    "results\\ThirdComing\\Gregor2.0\\Gregor2.0-499949.pt"
+                ]
+            },
+            {
+                "steps": 799364,
+                "file_path": "results\\ThirdComing\\Gregor2.0\\Gregor2.0-799364.onnx",
+                "reward": 252824402.94010416,
+                "creation_time": 1764472385.13047,
+                "auxillary_file_paths": [
+                    "results\\ThirdComing\\Gregor2.0\\Gregor2.0-799364.pt"
+                ]
+            },
+            {
+                "steps": 806404,
+                "file_path": "results\\ThirdComing\\Gregor2.0\\Gregor2.0-806404.onnx",
+                "reward": null,
+                "creation_time": 1764472612.1045883,
+                "auxillary_file_paths": [
+                    "results\\ThirdComing\\Gregor2.0\\Gregor2.0-806404.pt"
+                ]
+            }
+        ],
+        "elo": 1199.2207353844485,
+        "final_checkpoint": {
+            "steps": 806404,
+            "file_path": "results\\ThirdComing\\Gregor2.0.onnx",
+            "reward": null,
+            "creation_time": 1764472612.1045883,
+            "auxillary_file_paths": [
+                "results\\ThirdComing\\Gregor2.0\\Gregor2.0-806404.pt"
+            ]
+        }
+    },
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 799108,
+                "file_path": "results\\ThirdComing\\Marienka\\Marienka-799108.onnx",
+                "reward": 203139375.52347818,
+                "creation_time": 1764472385.3820443,
+                "auxillary_file_paths": [
+                    "results\\ThirdComing\\Marienka\\Marienka-799108.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 799108,
+            "file_path": "results\\ThirdComing\\Marienka.onnx",
+            "reward": 203139375.52347818,
+            "creation_time": 1764472385.3820443,
+            "auxillary_file_paths": [
+                "results\\ThirdComing\\Marienka\\Marienka-799108.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.0.1+cu117"
+    }
+}

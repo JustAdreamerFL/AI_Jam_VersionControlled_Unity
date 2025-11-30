@@ -1,0 +1,96 @@
+{
+    "Marienka": {
+        "checkpoints": [
+            {
+                "steps": 999986,
+                "file_path": "results\\FourtReicht\\Marienka\\Marienka-999986.onnx",
+                "reward": 14006759.936350504,
+                "creation_time": 1764485450.5399222,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Marienka\\Marienka-999986.pt"
+                ]
+            },
+            {
+                "steps": 1379852,
+                "file_path": "results\\FourtReicht\\Marienka\\Marienka-1379852.onnx",
+                "reward": 15232682.3578125,
+                "creation_time": 1764488972.475755,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Marienka\\Marienka-1379852.pt"
+                ]
+            },
+            {
+                "steps": 1379852,
+                "file_path": "results\\FourtReicht\\Marienka\\Marienka-1379852.onnx",
+                "reward": null,
+                "creation_time": 1764489091.5164678,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Marienka\\Marienka-1379852.pt"
+                ]
+            },
+            {
+                "steps": 1625265,
+                "file_path": "results\\FourtReicht\\Marienka\\Marienka-1625265.onnx",
+                "reward": 27195221.02549342,
+                "creation_time": 1764494667.904443,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Marienka\\Marienka-1625265.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1625265,
+            "file_path": "results\\FourtReicht\\Marienka.onnx",
+            "reward": 27195221.02549342,
+            "creation_time": 1764494667.904443,
+            "auxillary_file_paths": [
+                "results\\FourtReicht\\Marienka\\Marienka-1625265.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.0.1+cu117"
+    },
+    "Janko": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\FourtReicht\\Janko\\Janko-0.onnx",
+                "reward": null,
+                "creation_time": 1764489091.623469,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Janko\\Janko-0.pt"
+                ]
+            },
+            {
+                "steps": 999976,
+                "file_path": "results\\FourtReicht\\Janko\\Janko-999976.onnx",
+                "reward": 4820675.629071931,
+                "creation_time": 1764492282.2333496,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Janko\\Janko-999976.pt"
+                ]
+            },
+            {
+                "steps": 1105126,
+                "file_path": "results\\FourtReicht\\Janko\\Janko-1105126.onnx",
+                "reward": 12456022.326660156,
+                "creation_time": 1764494668.0662243,
+                "auxillary_file_paths": [
+                    "results\\FourtReicht\\Janko\\Janko-1105126.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1105126,
+            "file_path": "results\\FourtReicht\\Janko.onnx",
+            "reward": 12456022.326660156,
+            "creation_time": 1764494668.0662243,
+            "auxillary_file_paths": [
+                "results\\FourtReicht\\Janko\\Janko-1105126.pt"
+            ]
+        }
+    }
+}
