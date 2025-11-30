@@ -29,7 +29,7 @@ public class RobotAgent : Agent {
     [SerializeField] private RewardEditor rewardEditor;
     private BehaviorParameters behavior;
     private RobotMovement robotMovement;
-    private CollisionZoneBehaviour[] zoneComponents;
+    public CollisionZoneBehaviour[] zoneComponents;
     private IHealth[] healthComponents;
     [HideInInspector] public RobotAgent enemyRobot;
     private bool isHeuristic = false;
