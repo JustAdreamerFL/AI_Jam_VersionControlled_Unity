@@ -35,7 +35,7 @@ public class WeaponDamageRewarder : MonoBehaviour
     private void CollisionZone_OnDamageDealt(object sender, DamageDealtEventArgs e)
     {
         float weaponCollisionReward = e.DamageDealt * 1000; // damage * reward multiplier
-        //Debug.Log($"Calculated weapon reward: {weaponCollisionReward}, {transform.name}");
+        Debug.Log($"Calculated weapon reward: {weaponCollisionReward}, {transform.name}");
         robot.AddReward(weaponCollisionReward * weaponRewardMultiplier);
     }
 

@@ -2,58 +2,58 @@
     "Gregor2.0": {
         "checkpoints": [
             {
-                "steps": 2499984,
-                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2499984.onnx",
-                "reward": 875912.2465845743,
-                "creation_time": 1764485853.3347716,
+                "steps": 4499968,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4499968.onnx",
+                "reward": 1935801.5018323262,
+                "creation_time": 1764502494.9287531,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2499984.pt"
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4499968.pt"
                 ]
             },
             {
-                "steps": 2999972,
-                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2999972.onnx",
-                "reward": 1141452.0370117188,
-                "creation_time": 1764489751.2997277,
+                "steps": 4999980,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4999980.onnx",
+                "reward": 1265872.4806518555,
+                "creation_time": 1764506473.5517614,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-2999972.pt"
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4999980.pt"
                 ]
             },
             {
-                "steps": 3499980,
-                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3499980.onnx",
-                "reward": -2236591.8714904785,
-                "creation_time": 1764493636.8661952,
+                "steps": 5499946,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5499946.onnx",
+                "reward": 42594138.66088867,
+                "creation_time": 1764510299.1343458,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3499980.pt"
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5499946.pt"
                 ]
             },
             {
-                "steps": 3999964,
-                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3999964.onnx",
-                "reward": 2514074.292022705,
-                "creation_time": 1764497482.5780423,
+                "steps": 5534526,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5534526.onnx",
+                "reward": null,
+                "creation_time": 1764510585.7669106,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-3999964.pt"
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5534526.pt"
                 ]
             },
             {
-                "steps": 4479918,
-                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.onnx",
-                "reward": 2392093.053782145,
-                "creation_time": 1764501624.6830082,
+                "steps": 5623776,
+                "file_path": "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5623776.onnx",
+                "reward": null,
+                "creation_time": 1764511393.8265398,
                 "auxillary_file_paths": [
-                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.pt"
+                    "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5623776.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 4479918,
+            "steps": 5623776,
             "file_path": "results\\Gregor2.5\\Gregor2.0.onnx",
-            "reward": 2392093.053782145,
-            "creation_time": 1764501624.6830082,
+            "reward": null,
+            "creation_time": 1764511393.8265398,
             "auxillary_file_paths": [
-                "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-4479918.pt"
+                "results\\Gregor2.5\\Gregor2.0\\Gregor2.0-5623776.pt"
             ]
         }
     },
