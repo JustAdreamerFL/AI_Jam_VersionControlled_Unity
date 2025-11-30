@@ -292,7 +292,7 @@ Transform:
   - {fileID: 7864792928898718959}
   - {fileID: 2054932216561311635}
   - {fileID: 522239820284461135}
-l  - {fileID: 4871705916203222777}
+  - {fileID: 1468668800998159951}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &555180725870024943
@@ -425,7 +425,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: e01ee2e696f5c9043ac9817ed7c0dbcd, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Janko
@@ -1179,9 +1179,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
---- !u!4 &4871705916203222777 stripped
+--- !u!4 &1468668800998159951 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3505976508214217981, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7448320230423460939, guid: faa71ffe371675449aa57f26d1c5b6aa, type: 3}
   m_PrefabInstance: {fileID: 8303650038493432324}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8835596305683679921

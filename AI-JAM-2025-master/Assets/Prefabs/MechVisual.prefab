@@ -953,10 +953,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb6864ee2afb3743ab534cf465bf7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeedMultiplier: 1
+  shootParticle: {fileID: 5395407014420893593}
+  weaponCollisionZone: {fileID: 0}
   rb: {fileID: 0}
   gun: {fileID: 8549978606401559761}
-  shootParticle: {fileID: 5395407014420893593}
+  walkSpeedMultiplier: 1.5
 --- !u!95 &7549120820147706572
 Animator:
   serializedVersion: 7
