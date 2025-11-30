@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class RobotMovement : MonoBehaviour {
-    [SerializeField] private bool stationaryRobot = false;
+    [SerializeField] public bool stationaryRobot = false;
 
     [SerializeField] private InputActionAsset inputActions;
     public InputAction leftWheelsAxis;
